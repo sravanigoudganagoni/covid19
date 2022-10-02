@@ -1,0 +1,10 @@
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"rahul12689",
+    "password":"rahul@6675"
+}
+###
+GET http://loacalhost:3000/user/
+Authorization: Bearer JWT_TOKEN
